@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Pilgrim Style</title>
+    <link>https://examplesite.com/blog/</link>
+    <description>Recent content in Blogs on Pilgrim Style</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>型にはめるだけでうまくいくなんてことはないという話</title>
+      <link>https://examplesite.com/blog/post-1/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/blog/post-1/</guid>
+      <description>この記事はQiitaに書いた記事を転載したものです。
+先日、宮崎初のJbugに参加してきました。
+https://jbug.connpass.com/event/152790/
+自分も登壇させていてだきましたが、それはまた別で、今回はその懇親会でのお話で面白い話があがったので紹介します。
+ある顧客がメールマガジンをしたいと要望したところ、なぜそれをしたいのかがわからないまま適用しようとしているという話から、デザイン界隈でもファッション雑誌なんかも各ページのレイアウトなんかは長い年月をかけて一定の形式が決まっていて、それに沿ってコンテンツを埋めてもなんの効果がない。大事なのはその中身、コンテンツ、つまりWhyが大事なんだとか。
+それと似たことがAgileやScrumにも言えるんじゃないかと思いました。
+今や、AgileもScrumもアーリーアダプターの段階は超えていて、マジョリティの段階に来ていますよね。 弊社でもScrumのプラクティスを取り入れて毎スプリントを過ごしています。
+しかし、ただやるだけではうまくいくはずもなく、、、もしかしたらうまく行っていないことにも気づけないかもしれません。 逆に何かおかしいと感じるかもしれませんが、何も手を打たなければ、そうしているうちに結局手遅れになり炎上している。。。とういうことも。。。</description>
+    </item>
+    
+  </channel>
+</rss>
