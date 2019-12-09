@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://pilgrim-lifestyle.jp"
+baseURL = "https://yasuhirokimesawa.github.io/"
 languageCode = "en-us"
 title = "Pilgrim Style"
 theme = "liva-hugo"
