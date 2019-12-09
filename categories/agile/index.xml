@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agile on Pilgrim Style</title>
-    <link>https://yasuhirokimesawa.github.io/categories/agile/</link>
+    <link>https://pilgrim-lifestyle.jp/categories/agile/</link>
     <description>Recent content in Agile on Pilgrim Style</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
     
-	<atom:link href="https://yasuhirokimesawa.github.io/categories/agile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pilgrim-lifestyle.jp/categories/agile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>型にはめるだけでうまくいくなんてことはないという話</title>
-      <link>https://yasuhirokimesawa.github.io/blog/post-1/</link>
+      <link>https://pilgrim-lifestyle.jp/blog/post-1/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://yasuhirokimesawa.github.io/blog/post-1/</guid>
+      <guid>https://pilgrim-lifestyle.jp/blog/post-1/</guid>
       <description>この記事はQiitaに書いた記事を転載したものです。
 先日、宮崎初のJbugに参加してきました。
 https://jbug.connpass.com/event/152790/
