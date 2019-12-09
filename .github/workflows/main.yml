@@ -14,7 +14,7 @@ jobs:
     - name: Checkout Source
       uses: actions/checkout@v1
     - name: Clone submodule
-      run: git clone https://github.com/themefisher/liva-hugo.git themes/liva-hugo
+      run: git submodule update --init --recursive
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2.3.1
       with:
