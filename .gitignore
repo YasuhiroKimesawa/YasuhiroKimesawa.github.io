@@ -1,3 +1,4 @@
 themes/*
+!themes/.gitkeep
 public/*
 resources/_gen/*
