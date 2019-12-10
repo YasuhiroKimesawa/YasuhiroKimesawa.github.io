@@ -47,12 +47,33 @@ disqusShortname = ""
   [[menu.main]]
   name = "About"
   URL = "about/about"
-  weight = 2
+  weight = 1
   
   [[menu.main]]
   name = "Post"
   URL = "blog"
-  weight = 3
+  weight = 2
+ 
+  [[menu.main]]
+  name = "Qiita"
+  URL = "https://qiita.com/YasuhiroKimesawa"
+  weight = 4
+ 
+  [[menu.main]]
+  name = "Slide"
+  weight = 5
+
+  [[menu.main]]
+  parent = "Slide"
+  name = "SlideShare"
+  URL = "https://www.slideshare.net/kimesawa/presentations"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Slide"
+  name = "Speaker Deck"
+  URL = "https://speakerdeck.com/yasuhirokimesawa"
+  weight = 2
   
   #[[menu.main]]
   #name = "Contact"
