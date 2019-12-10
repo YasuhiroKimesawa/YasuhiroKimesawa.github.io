@@ -17,7 +17,7 @@ tags:
   - "Scrum"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 この記事はQiitaに書いた記事を転載したものです。
