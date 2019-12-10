@@ -11,10 +11,10 @@ description: "ドメイン駆動設計のための静的型付き言語のすす
 
 # taxonomies
 categories: 
-  - "Agile"
+  - "DDD"
 tags:
-  - "Agile"
-  - "Scrum"
+  - "DDD"
+  - "Java"
 
 # post type
 type: "featured"
