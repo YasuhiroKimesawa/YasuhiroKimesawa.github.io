@@ -6,10 +6,27 @@
     <description>Recent content on Pilgrim Style</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Dec 2019 00:29:43 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2019 10:07:47 +0600</lastBuildDate>
     
 	<atom:link href="https://pilgrim-lifestyle.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ドメイン駆動設計のための静的型付き言語のすすめ</title>
+      <link>https://pilgrim-lifestyle.jp/blog/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%9D%99%E7%9A%84%E5%9E%8B%E4%BB%98%E3%81%8D%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%99%E3%81%99%E3%82%81/</link>
+      <pubDate>Tue, 10 Dec 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pilgrim-lifestyle.jp/blog/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%9D%99%E7%9A%84%E5%9E%8B%E4%BB%98%E3%81%8D%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%99%E3%81%99%E3%82%81/</guid>
+      <description>この記事はQiitaに書こうと思っている記事を先行で公開しています。
+ドメイン駆動設計も随分と浸透してきたと思うこのごろ。
+でも、未だに動的型付き言語で頑張っている（弊社含め）現場も多く、今回は静的型付き言語について語ろうかと。
+そもそもWebアプリの業界では単純にPHPやRuby、Pythonなど動的片付け言語で頑張る現場が圧倒的に多いかと思います。
+しかし、ドメイン駆動設計を実践していくと、ある事実が襲ってきます。それはドメイン駆動設計は「型」の世界で成り立っているということ。
+実践するにあたって、まず最初に乗り越える壁がレイヤアーキテクチャだったりするので、なかなか難しいと思いますが、 本質的な部分は当然モデル。EntityであったValueObjectであるわけです。
+もちろん、動的型付きの言語でもモデルは書けます。弊社でもPython3の型ヒントを駆使してモデルを書いています。
+ただ、モデルとは何かを考えてみていただきたい。
+ モデルとは、プロジェクトに携わる人々の頭のなかで構築された概念の集まりであり、ドメインについての洞察を反映した、用語と概念間の関係性からできている。(エリックエヴァンスのドメイン駆動設計 第一部第二章 コミュニケーションと言語の使い方 より)</description>
+    </item>
     
     <item>
       <title>About</title>
