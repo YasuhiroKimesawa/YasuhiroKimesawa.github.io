@@ -3,16 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pilgrim-lifestyle.jp/tags/agile/</loc>
-    <lastmod>2019-12-10T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pilgrim-lifestyle.jp/categories/agile/</loc>
-    <lastmod>2019-12-10T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pilgrim-lifestyle.jp/blog/</loc>
     <lastmod>2019-12-10T10:07:47+06:00</lastmod>
   </url>
@@ -23,12 +13,22 @@
   </url>
   
   <url>
-    <loc>https://pilgrim-lifestyle.jp/</loc>
+    <loc>https://pilgrim-lifestyle.jp/tags/ddd/</loc>
     <lastmod>2019-12-10T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pilgrim-lifestyle.jp/tags/scrum/</loc>
+    <loc>https://pilgrim-lifestyle.jp/categories/ddd/</loc>
+    <lastmod>2019-12-10T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/tags/java/</loc>
+    <lastmod>2019-12-10T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/</loc>
     <lastmod>2019-12-10T10:07:47+06:00</lastmod>
   </url>
   
@@ -50,6 +50,21 @@
   <url>
     <loc>https://pilgrim-lifestyle.jp/about/</loc>
     <lastmod>2019-12-09T00:29:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/categories/agile/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/tags/agile/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/tags/scrum/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
