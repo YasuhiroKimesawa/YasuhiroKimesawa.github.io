@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>地方 on Pilgrim Style</title>
+    <link>https://pilgrim-lifestyle.jp/tags/%E5%9C%B0%E6%96%B9/</link>
+    <description>Recent content in 地方 on Pilgrim Style</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://pilgrim-lifestyle.jp/tags/%E5%9C%B0%E6%96%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>「宮崎に住むエンジニアさんに20の質問」に回答してみた</title>
+      <link>https://pilgrim-lifestyle.jp/blog/%E5%AE%AE%E5%B4%8E%E3%81%AB%E4%BD%8F%E3%82%80%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%95%E3%82%93%E3%81%AB20%E3%81%AE%E8%B3%AA%E5%95%8F%E3%81%AB%E5%9B%9E%E7%AD%94%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <pubDate>Wed, 11 Dec 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pilgrim-lifestyle.jp/blog/%E5%AE%AE%E5%B4%8E%E3%81%AB%E4%BD%8F%E3%82%80%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%95%E3%82%93%E3%81%AB20%E3%81%AE%E8%B3%AA%E5%95%8F%E3%81%AB%E5%9B%9E%E7%AD%94%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <description>この記事は宮崎IT関連勉強会 Advent Calendar 201920日目の記事です。
+このアドベントカレンダー企画時に @koogawa さんが用意してくれた質問に答えてみます。
+ Q1: 名前orハンドルネームを教えてください（よければ由来も教えてください！）</description>
+    </item>
+    
+  </channel>
+</rss>
