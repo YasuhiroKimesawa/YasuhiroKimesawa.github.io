@@ -4,7 +4,7 @@ date: 2019-12-12T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "./images/featured-post/post-1.jpg"
+image: "./images/featured-post/post-4.jpg"
 
 # meta description
 description: "生活とルンバと仕事"
