@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>serverless on Pilgrim Style</title>
+    <link>https://pilgrim-lifestyle.jp/categories/serverless/</link>
+    <description>Recent content in serverless on Pilgrim Style</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Dec 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://pilgrim-lifestyle.jp/categories/serverless/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lambda関数をそのままAWS Batchに乗せ換える(Python3.6限定)</title>
+      <link>https://pilgrim-lifestyle.jp/blog/awsbatchserverlessplugin%E3%82%92python3.6%E7%94%A8%E3%81%AB%E4%BF%AE%E6%AD%A3%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Mon, 16 Dec 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pilgrim-lifestyle.jp/blog/awsbatchserverlessplugin%E3%82%92python3.6%E7%94%A8%E3%81%AB%E4%BF%AE%E6%AD%A3%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>この記事はQiitaに書こうと思っている記事を先行で公開しています。
+Serverlessでサービスを展開していると、どうしてもRDBを使いたくなったり、どこかでバッチ処理をしたくなったりしますよね。
+RDBについては、RDS ProxyがLambdaから使用可能になりそうでいい兆しですね。
+Amazon RDS Proxy
+バッチ処理についてはかつてからAWS Batchというのが用意されています。
+これはECRに用意したDockerを使って処理を実行できる環境です。Queueも用意されているのでかなり自由なバッチ設計ができると思います。</description>
+    </item>
+    
+  </channel>
+</rss>

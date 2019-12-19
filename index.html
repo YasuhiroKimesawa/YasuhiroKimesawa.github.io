@@ -145,7 +145,7 @@
           <div class="row no-gutters align-items-center">
             <div class="col-md-5">
               
-              <img src="https://pilgrim-lifestyle.jp/images/featured-post/post-2.jpg" class="card-img" alt="ドメイン駆動設計のための静的型付き言語のすすめ">
+              <img src="https://pilgrim-lifestyle.jp/images/featured-post/post-5.jpg" class="card-img" alt="Lambda関数をそのままAWS Batchに乗せ換える(Python3.6限定)">
               
             </div>
             <div class="col-md-6 offset-md-1">
@@ -154,20 +154,17 @@
                   <span>By YasuhiroKimesawa</span>
                   
                   <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>10 December 2019</span>
+                  <span>16 December 2019</span>
                   
                 </div>
-                <a href="https://pilgrim-lifestyle.jp/blog/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%9D%99%E7%9A%84%E5%9E%8B%E4%BB%98%E3%81%8D%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%99%E3%81%99%E3%82%81/"
-                  class="h1 font-weight-bold d-block text-dark mb-4 card-title">ドメイン駆動設計のための静的型付き言語のすすめ</a>
+                <a href="https://pilgrim-lifestyle.jp/blog/awsbatchserverlessplugin%E3%82%92python3.6%E7%94%A8%E3%81%AB%E4%BF%AE%E6%AD%A3%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/"
+                  class="h1 font-weight-bold d-block text-dark mb-4 card-title">Lambda関数をそのままAWS Batchに乗せ換える(Python3.6限定)</a>
                 <p class="card-text">この記事はQiitaに書こうと思っている記事を先行で公開しています。
-ドメイン駆動設計も随分と浸透してきたと思うこのごろ。
-でも、未だに動的型付き言語で頑張っている（弊社含め）現場も多く、今回は静的型付き言語について語ろうかと。
-そもそもWebアプリの業界では単純にPHPやRuby、Pythonなど動的片付け言語で頑張る現場が圧倒的に多いかと思います。
-しかし、ドメイン駆動設計を実践していくと、ある事実が襲ってきます。それはドメイン駆動設計は「型」の世界で成り立っているということ。
-実践するにあたって、まず最初に乗り越える壁がレイヤアーキテクチャだったりするので、なかなか難しいと思いますが、 本質的な部分は当然モデル。EntityであったValueObjectであるわけです。
-もちろん、動的型付きの言語でもモデルは書けます。弊社でもPython3の型ヒントを駆使してモデルを書いています。
-ただ、モデルとは何かを考えてみていただきたい。
- モデルとは、プロジェクトに携わる人々の頭のなかで構築された概念の集まりであり、ドメインについての洞察を反映した、用語と概念間の関係性からできている。(エリックエヴァンスのドメイン駆動設計 第一部第二章 コミュニケーションと言語の使い方 より)...</p>
+Serverlessでサービスを展開していると、どうしてもRDBを使いたくなったり、どこかでバッチ処理をしたくなったりしますよね。
+RDBについては、RDS ProxyがLambdaから使用可能になりそうでいい兆しですね。
+Amazon RDS Proxy
+バッチ処理についてはかつてからAWS Batchというのが用意されています。
+これはECRに用意したDockerを使って処理を実行できる環境です。Queueも用意されているのでかなり自由なバッチ設計ができると思います。...</p>
               </div>
             </div>
           </div>
@@ -225,18 +222,18 @@
       <div class="col-lg-4 small-post-border">
         <article class="media">
           
-          <div class="recent-post-thumb mr-3" style="background-image: url('https://pilgrim-lifestyle.jp/images/featured-post/post-1.jpg');"></div>
+          <div class="recent-post-thumb mr-3" style="background-image: url('https://pilgrim-lifestyle.jp/images/featured-post/post-2.jpg');"></div>
           
           <div class="media-body">
             <div class="mb-3">
               <span>By YasuhiroKimesawa</span>
               
               <span class="border-bottom border-primary px-2 mx-1"></span>
-              <span>29 Oct 2019</span>
+              <span>10 Dec 2019</span>
               
             </div>
-            <a href="https://pilgrim-lifestyle.jp/blog/%E5%9E%8B%E3%81%AB%E3%81%AF%E3%82%81%E3%82%8B%E3%81%A0%E3%81%91%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8F%E3%81%AA%E3%82%93%E3%81%A6%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84%E3%81%A8%E3%81%84%E3%81%86%E8%A9%B1/" class="h5 d-block mb-3">型にはめるだけでうまくいくなんてことはないという話</a>
-            <a href="https://pilgrim-lifestyle.jp/blog/%E5%9E%8B%E3%81%AB%E3%81%AF%E3%82%81%E3%82%8B%E3%81%A0%E3%81%91%E3%81%A7%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8F%E3%81%AA%E3%82%93%E3%81%A6%E3%81%93%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%84%E3%81%A8%E3%81%84%E3%81%86%E8%A9%B1/" class="btn btn-outline-primary">read more</a>
+            <a href="https://pilgrim-lifestyle.jp/blog/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%9D%99%E7%9A%84%E5%9E%8B%E4%BB%98%E3%81%8D%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%99%E3%81%99%E3%82%81/" class="h5 d-block mb-3">ドメイン駆動設計のための静的型付き言語のすすめ</a>
+            <a href="https://pilgrim-lifestyle.jp/blog/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%9D%99%E7%9A%84%E5%9E%8B%E4%BB%98%E3%81%8D%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%99%E3%81%99%E3%82%81/" class="btn btn-outline-primary">read more</a>
           </div>
         </article>
       </div>
@@ -311,6 +308,38 @@
           <div class="col-md-6 mb-4">
             <article class="card">
               
+              <img src="https://pilgrim-lifestyle.jp/images/featured-post/post-2.jpg" class="card-img-top" alt="ドメイン駆動設計のための静的型付き言語のすすめ">
+              
+              <div class="card-body px-0">
+                
+                <a href="/categories/ddd"
+                  class="text-primary">D d d</a>
+                
+                <a href="https://pilgrim-lifestyle.jp/blog/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%9D%99%E7%9A%84%E5%9E%8B%E4%BB%98%E3%81%8D%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%99%E3%81%99%E3%82%81/" class="h5 d-block my-3">ドメイン駆動設計のための静的型付き言語のすすめ</a>
+                <div class="mb-3">
+                  <span>By YasuhiroKimesawa</span>
+                  
+                  <span class="border-bottom border-primary px-2 mx-1"></span>
+                  <span>10 December 2019</span>
+                  
+                </div>
+                <p class="card-text">この記事はQiitaに書こうと思っている記事を先行で公開しています。
+ドメイン駆動設計も随分と浸透してきたと思うこのごろ。
+でも、未だに動的型付き言語で頑張っている（弊社含め）現場も多く、今回は静的型付き言語について語ろうかと。
+そもそもWebアプリの業界では単純にPHPやRuby、Pythonなど動的片付け言語で頑張る現場が圧倒的に多いかと思います。
+しかし、ドメイン駆動設計を実践していくと、ある事実が襲ってきます。それはドメイン駆動設計は「型」の世界で成り立っているということ。
+実践するにあたって、まず最初に乗り越える壁がレイヤアーキテクチャだったりするので、なかなか難しいと思いますが、 本質的な部分は当然モデル。EntityであったValueObjectであるわけです。
+もちろん、動的型付きの言語でもモデルは書けます。弊社でもPython3の型ヒントを駆使してモデルを書いています。
+ただ、モデルとは何かを考えてみていただきたい。
+ モデルとは、プロジェクトに携わる人々の頭のなかで構築された概念の集まりであり、ドメインについての洞察を反映した、用語と概念間の関係性からできている。(エリックエヴァンスのドメイン駆動設計 第一部第二章 コミュニケーションと言語の使い方 より)</p>
+                <a href="https://pilgrim-lifestyle.jp/blog/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E9%9D%99%E7%9A%84%E5%9E%8B%E4%BB%98%E3%81%8D%E8%A8%80%E8%AA%9E%E3%81%AE%E3%81%99%E3%81%99%E3%82%81/" class="btn btn-outline-primary">read more</a>
+              </div>
+            </article>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <article class="card">
+              
               <img src="https://pilgrim-lifestyle.jp/images/featured-post/post-1.jpg" class="card-img-top" alt="型にはめるだけでうまくいくなんてことはないという話">
               
               <div class="card-body px-0">
@@ -362,7 +391,9 @@ https://jbug.connpass.com/event/152790/
           <h4 class="widget-title">Category</h4>
           <ul class="list-unstyled">
             <li><a href="/categories/agile">Agile</a></li>
+            <li><a href="/categories/aws">Aws</a></li>
             <li><a href="/categories/ddd">Ddd</a></li>
+            <li><a href="/categories/serverless">Serverless</a></li>
             <li><a href="/categories/%e5%9c%b0%e6%96%b9%e3%81%ab%e4%bd%8f%e3%82%80%e3%81%93%e3%81%a8">地方に住むこと</a></li>
             <li><a href="/categories/%e7%94%9f%e6%b4%bb">生活</a></li>
           </ul>
@@ -374,9 +405,15 @@ https://jbug.connpass.com/event/152790/
             <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
                 href="/tags/agile">Agile</a></li>
             <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+                href="/tags/aws">Aws</a></li>
+            <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+                href="/tags/awsbatch">Awsbatch</a></li>
+            <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
                 href="/tags/ddd">Ddd</a></li>
             <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
                 href="/tags/java">Java</a></li>
+            <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+                href="/tags/lambda">Lambda</a></li>
             <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
                 href="/tags/scrum">Scrum</a></li>
             <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
@@ -460,7 +497,13 @@ https://jbug.connpass.com/event/152790/
               href="/categories/agile">Agile</a>
           </li>
           <li class="mb-3"><a class="text-dark"
+              href="/categories/aws">Aws</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
               href="/categories/ddd">Ddd</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/serverless">Serverless</a>
           </li>
           <li class="mb-3"><a class="text-dark"
               href="/categories/%e5%9c%b0%e6%96%b9%e3%81%ab%e4%bd%8f%e3%82%80%e3%81%93%e3%81%a8">地方に住むこと</a>
