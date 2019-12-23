@@ -44,7 +44,7 @@ ServerlessでデプロイするLambda関数をAWS Batchにソースコードを�
 5. フォーク元の更新を自分のRepositoryに取り込むのは
 
 検索するといっぱい記事が出てきますね。。。例えば、、、
-https://qiita.com/icb54615/items/3544c419a3f6fc3534fb
+[GitHubでフォーク元の差分を取り込む(@icb54615さん)](https://qiita.com/icb54615/items/3544c419a3f6fc3534fb)
 
 6. 注意としては、フォーク元の更新を自分のレポジトリに取り込みたいので、自分のレポジトリのmasterに自分の修正を入れないことです。
 
