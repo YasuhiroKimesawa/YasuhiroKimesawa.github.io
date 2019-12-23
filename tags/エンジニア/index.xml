@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>エンジニア on Pilgrim Style</title>
+    <link>https://pilgrim-lifestyle.jp/tags/%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/</link>
+    <description>Recent content in エンジニア on Pilgrim Style</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2019 11:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://pilgrim-lifestyle.jp/tags/%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>aratana/ZOZOとfashionとIT技術</title>
+      <link>https://pilgrim-lifestyle.jp/blog/aratana%E3%81%A8zozo%E3%81%A8fashion%E3%81%A8it%E6%8A%80%E8%A1%93/</link>
+      <pubDate>Mon, 23 Dec 2019 11:07:47 +0600</pubDate>
+      
+      <guid>https://pilgrim-lifestyle.jp/blog/aratana%E3%81%A8zozo%E3%81%A8fashion%E3%81%A8it%E6%8A%80%E8%A1%93/</guid>
+      <description>(画像引用：https://tabi-labo.com/284144/sapeur)
+この記事はアラタナアドベントカレンダー2019最終日の記事です。
+最終日らしいテーマを選びました。
+自分は株式会社アラタナに所属して４年になります。
+来年の４月にはZOZO/ZOZOテクノロジーズに再編が決まっています。
+自分が入社したときには既にZOZO傘下にいましたので、ずっとアパレルのお仕事をしてきたわけですが、アラタナはZOZO傘下に入る前はカゴラボというECサイト構築をメインにやってきましたので、途中で参加した自分もやはりどこか「EC」全般というドメインでやっている感覚がどこかにありました。
+ここで、ZOZOに編入とのことであらためて「ファッション」「アパレル」「アパレルブランド」という分野にコミットしていく必要があるんだなと再認識しているところです。
+すごく恥ずかしい話なのですが、今年40を過ぎて初めて服装をきちんとしようと思いました。
+なかなかエンジニアって服装に気を使わない人が多いですよね。ご多分にもれず自分もそのうちの一人でした。
+今年になって、家を整理したり、生活をきちんとしようと思った過程で、服装にも気を使おうと思ったのです。</description>
+    </item>
+    
+  </channel>
+</rss>
