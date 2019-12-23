@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pilgrim-lifestyle.jp/blog/019-%E7%94%9F%E6%B4%BB%E3%81%97%E3%81%94%E3%81%A8muji/</loc>
+    <lastmod>2019-12-20T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/blog/</loc>
+    <lastmod>2019-12-20T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/categories/</loc>
+    <lastmod>2019-12-20T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/</loc>
+    <lastmod>2019-12-20T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/tags/</loc>
+    <lastmod>2019-12-20T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/tags/%E7%84%A1%E5%8D%B0%E8%89%AF%E5%93%81/</loc>
+    <lastmod>2019-12-20T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2019-12-20T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pilgrim-lifestyle.jp/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2019-12-20T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pilgrim-lifestyle.jp/tags/aws/</loc>
     <lastmod>2019-12-16T10:07:47+06:00</lastmod>
   </url>
@@ -18,16 +58,6 @@
   </url>
   
   <url>
-    <loc>https://pilgrim-lifestyle.jp/blog/</loc>
-    <lastmod>2019-12-16T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pilgrim-lifestyle.jp/categories/</loc>
-    <lastmod>2019-12-16T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pilgrim-lifestyle.jp/tags/lambda/</loc>
     <lastmod>2019-12-16T10:07:47+06:00</lastmod>
   </url>
@@ -38,28 +68,8 @@
   </url>
   
   <url>
-    <loc>https://pilgrim-lifestyle.jp/</loc>
-    <lastmod>2019-12-16T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pilgrim-lifestyle.jp/categories/serverless/</loc>
     <lastmod>2019-12-16T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pilgrim-lifestyle.jp/tags/</loc>
-    <lastmod>2019-12-16T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pilgrim-lifestyle.jp/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2019-12-12T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pilgrim-lifestyle.jp/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2019-12-12T10:07:47+06:00</lastmod>
   </url>
   
   <url>
@@ -118,12 +128,12 @@
   </url>
   
   <url>
-    <loc>https://pilgrim-lifestyle.jp/categories/agile/</loc>
+    <loc>https://pilgrim-lifestyle.jp/tags/agile/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pilgrim-lifestyle.jp/tags/agile/</loc>
+    <loc>https://pilgrim-lifestyle.jp/categories/agile/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   

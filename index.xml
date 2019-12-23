@@ -6,10 +6,23 @@
     <description>Recent content on Pilgrim Style</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2019 10:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 10:07:47 +0600</lastBuildDate>
     
 	<atom:link href="https://pilgrim-lifestyle.jp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>#019 生活・しごと・MUJI</title>
+      <link>https://pilgrim-lifestyle.jp/blog/019-%E7%94%9F%E6%B4%BB%E3%81%97%E3%81%94%E3%81%A8muji/</link>
+      <pubDate>Fri, 20 Dec 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pilgrim-lifestyle.jp/blog/019-%E7%94%9F%E6%B4%BB%E3%81%97%E3%81%94%E3%81%A8muji/</guid>
+      <description>この記事は無印良品 Advent Calendar 2019 19日目の記事です。
+「生活をサボるな」 今年後半の自分のテーマは正にこれでした。生活とルンバと仕事
+生活をきちんとするために、片付けを始めたのですが、そこで無印の出番です！
+今年買った無印の収納商品をご覧いただきましょう。
+買ったのは展示品の割安だったもので、もうラインナップにない商品です。 小物の収納力が抜群です。</description>
+    </item>
     
     <item>
       <title>Lambda関数をそのままAWS Batchに乗せ換える(Python3.6限定)</title>
