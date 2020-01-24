@@ -4,7 +4,7 @@ date: 2019-12-23T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "./blog/オープンソースに貢献してみる/github_PNG20.png"
+image: "./blog/006_オープンソースに貢献してみる/github_PNG20.png"
 
 # meta description
 description: "オープンソースに貢献してみる"

@@ -4,7 +4,7 @@ date: 2019-12-16T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "./blog/lambda関数をそのままaws-batchに乗せ換えるpython3.6限定/images.png"
+image: "./blog/005_lambda関数をそのままaws-batchに乗せ換えるpython3.6限定/images.png"
 
 # meta description
 description: "Lambda関数をそのままAWS Batchに乗せ換える(Python3.6限定)"
@@ -19,7 +19,7 @@ tags:
   - "AWSBatch"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 この記事はQiitaに書こうと思っている記事を先行で公開しています。

@@ -4,7 +4,7 @@ date: 2019-12-20T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "./blog/019-生活しごとmuji/IMG_3625.JPG"
+image: "./blog/004_019-生活しごとmuji/IMG_3625.JPG"
 
 # meta description
 description: "#019 生活・しごと・MUJI"

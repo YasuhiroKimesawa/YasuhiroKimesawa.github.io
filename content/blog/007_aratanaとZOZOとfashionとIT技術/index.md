@@ -4,7 +4,7 @@ date: 2019-12-23T11:07:47+06:00
 draft: false
 
 # post thumb
-image: "./blog/aratanaとzozoとfashionとit技術/サプール.webp"
+image: "./blog/007_aratanaとzozoとfashionとit技術/サプール.webp"
 
 # meta description
 description: "aratana/ZOZOとfashionとIT技術"
