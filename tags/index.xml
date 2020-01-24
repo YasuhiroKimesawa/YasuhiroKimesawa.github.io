@@ -6,15 +6,24 @@
     <description>Recent content in Tags on Pilgrim Style</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2019 11:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 11:07:47 +0600</lastBuildDate>
     
 	<atom:link href="https://pilgrim-lifestyle.jp/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Agile</title>
+      <link>https://pilgrim-lifestyle.jp/tags/agile/</link>
+      <pubDate>Fri, 24 Jan 2020 11:07:47 +0600</pubDate>
+      
+      <guid>https://pilgrim-lifestyle.jp/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>エンジニア</title>
       <link>https://pilgrim-lifestyle.jp/tags/%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/</link>
-      <pubDate>Mon, 23 Dec 2019 11:07:47 +0600</pubDate>
+      <pubDate>Fri, 24 Jan 2020 11:07:47 +0600</pubDate>
       
       <guid>https://pilgrim-lifestyle.jp/tags/%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/</guid>
       <description></description>
@@ -116,15 +125,6 @@
       <pubDate>Tue, 10 Dec 2019 10:07:47 +0600</pubDate>
       
       <guid>https://pilgrim-lifestyle.jp/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Agile</title>
-      <link>https://pilgrim-lifestyle.jp/tags/agile/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pilgrim-lifestyle.jp/tags/agile/</guid>
       <description></description>
     </item>
     

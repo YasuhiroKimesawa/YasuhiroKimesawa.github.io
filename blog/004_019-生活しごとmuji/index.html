@@ -5,7 +5,7 @@
   
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Lambda関数をそのままAWS Batchに乗せ換える(Python3.6限定)">
+    <meta name="description" content="#019 生活・しごと・MUJI">
     <meta name="author" content="YasuhiroKimesawa">
     <meta name="generator" content="Hugo 0.60.1" />
   
@@ -139,52 +139,51 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <a href="/categories/aws"
-          class="text-primary">A w s</a>
+        <a href="/categories/%e7%94%9f%e6%b4%bb"
+          class="text-primary">生活</a>
         
-        <a href="/categories/serverless"
-          class="text-primary">Serverless</a>
-        
-        <h2>Lambda関数をそのままAWS Batchに乗せ換える(Python3.6限定)</h2>
+        <h2>#019 生活・しごと・MUJI</h2>
         <div class="mb-3">
           <span>By YasuhiroKimesawa</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>16 December 2019</span>
+          <span>20 December 2019</span>
           
         </div>
         
-        <img src="https://pilgrim-lifestyle.jp/blog/lambda%E9%96%A2%E6%95%B0%E3%82%92%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BEaws-batch%E3%81%AB%E4%B9%97%E3%81%9B%E6%8F%9B%E3%81%88%E3%82%8Bpython3.6%E9%99%90%E5%AE%9A/images.png" class="img-fluid w-100 mb-4" alt="Lambda関数をそのままAWS Batchに乗せ換える(Python3.6限定)">
+        <img src="https://pilgrim-lifestyle.jp/blog/004_019-%E7%94%9F%E6%B4%BB%E3%81%97%E3%81%94%E3%81%A8muji/IMG_3625.JPG" class="img-fluid w-100 mb-4" alt="#019 生活・しごと・MUJI">
         
         <div class="content mb-5">
-          <p>この記事はQiitaに書こうと思っている記事を先行で公開しています。</p>
-<p>Serverlessでサービスを展開していると、どうしてもRDBを使いたくなったり、どこかでバッチ処理をしたくなったりしますよね。</p>
-<p>RDBについては、RDS ProxyがLambdaから使用可能になりそうでいい兆しですね。</p>
-<p><a href="https://aws.amazon.com/jp/rds/proxy/">Amazon RDS Proxy</a></p>
-<p>バッチ処理についてはかつてからAWS Batchというのが用意されています。</p>
-<p>これはECRに用意したDockerを使って処理を実行できる環境です。Queueも用意されているのでかなり自由なバッチ設計ができると思います。</p>
-<p>さて、Serverlessで環境を構築している場合、まず選択肢として、AWSBatchよりもLambdaを考えると思います。</p>
-<p>StepFunctionやQueue、S3などのイベント、並行処理を駆使して構築する場合もあるでしょう。</p>
-<p>ただ、Lambdaの実行制限は現状15分でそれを超える場合は何か手を考えなくてはいけません。</p>
-<p>処理を分割する、並行処理を考える等あると思いますが、選択肢としてAWS Batchへの移行も入ってくるかと。</p>
-<p>しかし、問題はECR上にDockerを用意しなくてはいけない点です。</p>
-<p>AWS Batchを使用する場合、Lambdaで使っているソースコードをわざわざDockerに乗せて、ECRのレポジトリに突っ込まなくてはいけない。</p>
-<p>これは非常に面倒臭いです。</p>
-<p>そこでServerlessFrameworkを使っている場合限定ですが、いいPluginを見つけました。</p>
-<p><a href="https://github.com/justinram11/serverless-aws-batch">serverless-aws-batch</a></p>
-<p>※　ただしこちらは不具合が多いので注意。。。</p>
-<p>このプラグインはServerlessFrameworkからデプロイする際に、Lambdaで使用するソースをそのままDockerに乗せ、ECRにPushしてくれて、
-Batchの設定まで行ってくれる夢のようなPluginです。</p>
-<p>イベントや環境変数もそのまま使えます(Batchを起動するLambdaが自動で作られ、イベントや環境変数の設定も引き継がれる)。
-serverless.ymlをちょっと書き換えるだけで全部構築してくれます。</p>
-<p>ただ、先の大元のPluginはちょっとバグが多かったので、せめてPython3.6で動くように手を入れたものがこちらになります。</p>
-<p><a href="https://github.com/YasuhiroKimesawa/serverless-aws-batch/tree/revert-2-revert-1-bugfix/various_bugfix">serverless-aws-batch</a></p>
-<p>※ 大元をForkしてまだプルリクを出していないのですが、取り込まれたらリンクを修正します。</p>
-<p>使い方はGithubのReadmeに詳しく書いてあります。
-基本serverless.ymlでiamにbatchを許可するのと、該当のfunctionにbatchの項目を付け足すだけで済むはずです。</p>
-<p>ぜひ使ってみてください＼(^o^)／</p>
-<p>Python3.6以外では動く保証はないですが、同じような修正をすればいけると思うので、ForkしてPRしてもらえればいいかと思います。</p>
-<p>あらためて、大元のjustinram11さんありがとうございます！ナイスアイデアです！</p>
+          <p>この記事は<a href="https://adventar.org/calendars/4557">無印良品 Advent Calendar 2019</a> 19日目の記事です。</p>
+<h1 id="heading">「生活をサボるな」</h1>
+<p>今年後半の自分のテーマは正にこれでした。<a href="https://pilgrim-lifestyle.jp/blog/%E7%94%9F%E6%B4%BB%E3%81%A8%E3%83%AB%E3%83%B3%E3%83%90%E3%81%A8%E4%BB%95%E4%BA%8B/">生活とルンバと仕事</a></p>
+<p>生活をきちんとするために、片付けを始めたのですが、そこで無印の出番です！</p>
+<p>今年買った無印の収納商品をご覧いただきましょう。</p>
+<p><img src="IMG_3623.JPG" alt="1"></p>
+<p>買ったのは展示品の割安だったもので、もうラインナップにない商品です。
+小物の収納力が抜群です。</p>
+<p><img src="IMG_3624.JPG" alt="2"></p>
+<p>ごちゃごちゃしていたキッチンを整理するために大量に買いました。</p>
+<p>ちゃんと揃えると見た目がいいのですが、揃えてから写真とればよかったな・・・</p>
+<p><a href="https://www.muji.net/store/cmdty/section/S2000414">やわらかポリエチレンケース</a></p>
+<p><img src="IMG_3625.JPG" alt="3"></p>
+<p>右のポリプロピレンケースです。文房具と薬の整理のために買いました。</p>
+<p>中は仕切りを付けて結構細かく分類しています。</p>
+<p>ポイントは引き出しにシールを貼って、何が入っているかを開けなくても確認できるところ。</p>
+<p>日々の片付けにも便利です。</p>
+<p><a href="https://www.muji.net/store/cmdty/detail/4548076748991?searchno=12&amp;sectionCode=S200041704">ポリプロピレンケース</a></p>
+<p><img src="IMG_3626.JPG" alt="4"></p>
+<p>ごちゃごちゃしたケーブル類の整理のため買いました。</p>
+<p>箱はメイクボックスです。
+<a href="https://www.muji.net/store/cmdty/section/S02105">ポリプロピレンメイクボックス</a></p>
+<p>中はEVAケースで小分けしています。
+<a href="https://www.muji.net/store/cmdty/detail/4550002873592?searchno=12&amp;sectionCode=S107013805">ＥＶＡケース・ファスナー付</a></p>
+<p>EVAケースは良品週間のたびに在庫がなくなるので注意です。</p>
+<p><img src="IMG_3627.JPG" alt="5"></p>
+<p>説明書などの保管書類の整理のために買いました。</p>
+<p>自宅の棚にピッタリ入らずどうしようかと思っていたのですが、縦横逆にしたら超ぴったり。さすが無印です。</p>
+<p><a href="https://www.muji.net/store/cmdty/section/S1070103">プロプロピレンファイルボックス</a></p>
+<p>来年も、無印で良い生活を・・・</p>
 
         </div>
 
