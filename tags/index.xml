@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Pilgrim Style</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2020 11:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2020 11:07:47 +0900</lastBuildDate>
     
 	<atom:link href="https://pilgrim-lifestyle.jp/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DDD</title>
+      <link>https://pilgrim-lifestyle.jp/tags/ddd/</link>
+      <pubDate>Sun, 02 Feb 2020 11:07:47 +0900</pubDate>
+      
+      <guid>https://pilgrim-lifestyle.jp/tags/ddd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Agile</title>
@@ -107,15 +116,6 @@
       <pubDate>Wed, 11 Dec 2019 10:07:47 +0600</pubDate>
       
       <guid>https://pilgrim-lifestyle.jp/tags/%E5%AE%AE%E5%B4%8E/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DDD</title>
-      <link>https://pilgrim-lifestyle.jp/tags/ddd/</link>
-      <pubDate>Tue, 10 Dec 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pilgrim-lifestyle.jp/tags/ddd/</guid>
       <description></description>
     </item>
     
