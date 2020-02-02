@@ -17,7 +17,7 @@ tags:
   - "エンジニア"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 ABD(Active Book Dialog)読書会をご存知でしょうか？
