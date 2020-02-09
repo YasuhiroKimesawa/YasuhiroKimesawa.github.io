@@ -16,7 +16,7 @@ tags:
   - "DDD"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 ## Webナイト宮崎 Vol.8　～てげ良いコード書きたい～ に参加しました
