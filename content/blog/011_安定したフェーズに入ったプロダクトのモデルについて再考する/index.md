@@ -4,10 +4,10 @@ date: 2020-02-20T11:07:47+09:00
 draft: false
 
 # post thumb
-image: "./blog/011_安定したフェーズに入ったプロダクトのモデルについて再考する/ユビキタス.jpg"
+# image: "./blog/012_安定したフェーズに入ったプロダクトのモデルについて再考する/ユビキタス.jpg"
 
 # meta description
-description: "安定したフェーズに入ったプロダクトのモデルについて再考する"
+description: "aaa"
 
 # taxonomies
 categories: 
