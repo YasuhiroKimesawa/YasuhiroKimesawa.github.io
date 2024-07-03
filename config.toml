@@ -1,155 +1,97 @@
-######################## default configuration ####################
-baseURL = "https://pilgrim-lifestyle.jp/"
+## Basic Configuration
+baseurl = "https://pilgrim-lifestyle.jp/"
 languageCode = "en-us"
+
 title = "Pilgrim Style"
-theme = "liva-hugo"
-summaryLength = "10"
-paginate = 6
-disqusShortname = ""
+theme = "triple-hyde"
 
-[outputs]
-  home = ["HTML", "AMP", "RSS", "JSON"]
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
 
-############################# Plugins ##############################
-[params.plugins]
+summarylength = 200
 
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
-  [[params.plugins.css]]
-  URL = "plugins/venobox/venobox.css"
+paginate = 5
 
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/venobox/venobox.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/fuse.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/mark.js"
-  [[params.plugins.js]]
-  URL = "plugins/search/search.js"
-
-  
-############################## navigation ###############################
-[menu]
-  
-  # main menu
-  [[menu.main]]
-  name = "About"
-  URL = "about/about"
-  weight = 1
-  
-  [[menu.main]]
-  name = "Post"
-  URL = "blog"
-  weight = 2
- 
-  [[menu.main]]
-  name = "Qiita"
-  URL = "https://qiita.com/YasuhiroKimesawa"
-  weight = 4
- 
-  [[menu.main]]
-  name = "Slide"
-  weight = 5
-
-  [[menu.main]]
-  parent = "Slide"
-  name = "SlideShare"
-  URL = "https://www.slideshare.net/kimesawa/presentations"
-  weight = 1
-
-  [[menu.main]]
-  parent = "Slide"
-  name = "Speaker Deck"
-  URL = "https://speakerdeck.com/yasuhirokimesawa"
-  weight = 2
-  
-  #[[menu.main]]
-  #name = "Contact"
-  #URL = "contact"
-  #weight = 4
-
-  # footer menu
-  [[menu.footer]]
-  name = "About"
-  URL = "about/about"
-  weight = 2
-  
-  [[menu.footer]]
-  name = "Post"
-  URL = "blog"
-  weight = 3
-  
-  # [[menu.footer]]
-  # name = "Contact"
-  # URL = "contact"
-  # weight = 4
-
-
-#################### default parameters ################################
+## Site Settings
 [params]
-logo = "images/logo-1.png"
-home = "Home"
-# Meta data
-description = "This is meta description"
-author = "YasuhiroKimesawa"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-# Contact Information
-#mobile = "0124857985320"
-#email = "demo@email.com"
-location = "Miyazaki, Japan"
-# copyright
-copyright = "| @2019 [YasuhiroKimesawa](https://pilgrim-lifestyle.com) All Rights Reserved |"
+    author = "YasuhiroKimesawa"
+    title = "Pilgrim Style"
+    description = "..."
+    #authorimage = "images/author.png"
+    dateformat = "Jan 2, 2006"
+    mainSections = ["post"]
 
-  # Preloader
-  [params.preloader]
-  enable = true
-  preloader = "" # use .png , .svg or .gif format
+    # sidebar, copyright & license
+    logoimage = "images/logo-1.png"
+    copyright = "YasuhiroKimesawa"
+    since = 2019
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
 
-  # search
-  [params.search]
-  enable = true
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
 
-############################ news letter ########################
-#[params.newsletter]
-#enable = true
-#title = "Join Our Newsletter"
-#content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
 
-############################# social site ########################
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/pilgrim.ericclapton"
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
 
-[[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/pilgrim_reds"
+[params.giscus]
+    # repo = "author/repo"
+    # repoID = "<id>"
+    # category = "Announcements"
+    # categoryID = "<id>"
+    mapping = "pathname"
+    strict = "1"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "light"
+    lang = "en"
+    loading = "lazy"
 
-[[params.social]]
-title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "https://www.instagram.com/yasuhirokimesawa/"
+## Social Accounts
+[params.social]
+    github = "YasuhiroKimesawa"
+    instagram = "yasuhirokimesawa"
+    #linkedin = "<username>"
+    twitter = "pilgrim_reds"
+    facebook = "pilgrim.ericclapton"
+    #stackoverflow = "<username>"
+    #telegram = "<username>"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    #email = "your-email@example.com"
+    #mastodon = "<username>"
+    #threads = "@<username>"
+    # gravatar = "your-email@example.com"
+    # pgpkey = "<path-to-your-key-in-/static>"
 
-[[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/YasuhiroKimesawa"
-
-#[[params.social]]
-#title = "linkedin"
-#icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-#link = "#"
+## Main Menu
+[[menu.main]]
+    name = "Blogs"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+#[[menu.main]]
+#    name = "Portfolio"
+#    identifier = "portfolio"
+#    weight = 200
+#    url = "/portfolio/"
+#[[menu.main]]
+#    name = "Icons"
+#    identifier = "icons"
+#    weight = 250
+#    url = "/icons/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
