@@ -7,7 +7,7 @@ draft: false
 # image: "./blog/012_安定したフェーズに入ったプロダクトのモデルについて再考する/ユビキタス.jpg"
 
 # meta description
-description: "aaa"
+description: "安定したフェーズに入ったプロダクトのモデルについて再考する"
 
 # taxonomies
 categories: 
