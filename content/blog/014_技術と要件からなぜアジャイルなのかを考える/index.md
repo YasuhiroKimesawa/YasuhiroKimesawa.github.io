@@ -105,7 +105,7 @@ https://speakerdeck.com/hirokidaichi/da-gui-mo-yan-yu-moderushi-dai-nokai-fa-she
 
 GoogleSpreadSheetのGASとかMicrosoftOfficeのVBAでちょっとしたアプリを作るとかLambdaの関数を1本書くぐらいの規模であれば、ウォーターフォールで計画してもうまくいくでしょう。
 
-逆に言うと要求・技術の複雑度意外の要素でプロセスを選ぶと良くないことがおきそうです。例えば、、、
+逆に言うと要求・技術の複雑度以外の要素でプロセスを選ぶと良くないことがおきそうです。例えば、、、
 
 ### アジャイルの経験がないからできない
 
