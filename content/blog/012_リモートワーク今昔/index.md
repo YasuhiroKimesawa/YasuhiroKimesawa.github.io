@@ -16,7 +16,7 @@ tags:
   - "生活"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 この記事は、[緊急事態宣言 アドベントカレンダー](https://chouseisan.com/s?h=73b9f7603bd142a08ab69f347e6f5f72)7日目の記事です。

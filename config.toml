@@ -10,7 +10,7 @@ theme = "triple-hyde"
 # googleAnalytics = "your-google-analytics-id"
 # enableRobotsTXT = true
 
-summarylength = 200
+summarylength = 50
 
 paginate = 5
 
