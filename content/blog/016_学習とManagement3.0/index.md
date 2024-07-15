@@ -1,7 +1,7 @@
 ---
 title: "なぜアジャイルなのか④ 学習とManagement3.0"
 date: 2024-07-06T11:07:47+09:00
-draft: true
+draft: false
 
 # post thumb
 # image: "./blog/012_リモートワーク今昔/リモートワーク2.jpg"
